@@ -32,11 +32,11 @@
 
 		function getCookie(name){
 			// split cookie string and get all individual name=value pairs in an array
-			var cookieArr = document.cookie.split(';');
+			var cookieArr = document.cookie.split(";");
 
 			// loop through the array element
 			for (var i = 0; i < cookieArr.length; i++){
-				var cookiePair = cookieArr[i].split('=')
+				var cookiePair = cookieArr[i].split("=")
 				// removing whitespace at the beginning of the cookie name and compare it with the given string
 				if(name===cookiePair[0].trim()){
 					// decode cookie value and return
@@ -51,9 +51,10 @@
 		// if cart is empty:
 		if (cart == undefined){
 			cart={}
+			// this consolelog didnt show at the website inspect console
 			console.log('Cart was created!')
 			// set cookie to specific domains
-			document.cookie='cart='+JSON.stringify(cart)+";domain=;path=/"
+			document.cookie='cart=' + JSON.stringify(cart) + ";domain=;path=/"	
 		}
 		console.log('Cart:', cart)
 	</script>
