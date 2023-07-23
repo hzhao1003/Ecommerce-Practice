@@ -11,13 +11,13 @@ The frontend is powered by JavaScript, CSS, and HTML, providing a responsive and
 # Features
 The Ecommerce project comes with a set of essential features that are commonly found in ecommerce websites. Some of the key features include:
 
-User authentication and registration
-Product details and image galleries
-Shopping cart and order management
-Secure payment gateway integration (to be completed)
-Order history and tracking (to be completed)
-Admin panel for managing products, orders, and users
-Responsive design for desktop devices
+- User authentication and registration
+- Product details and image galleries
+- Shopping cart and order management
+- Secure payment gateway integration (to be completed)
+- Order history and tracking (to be completed)
+- Admin panel for managing products, orders, and users
+- Responsive design for desktop devices
 
 Please note that this project is a foundation and may not include all possible features you might require for your specific ecommerce business. 
 However, it provides a robust structure that can be extended and customized based on your unique needs.
